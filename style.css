@@ -1,8 +1,18 @@
+.admin{
+  text-decoration: none;
+  color: inherit;
+}
+more_patient{
+  display: none;
+}
+
 header{
   color: green;
+
 }
 
 body{
+ font-family: 'Courier New', Courier, monospace;
+
 
 }
-
