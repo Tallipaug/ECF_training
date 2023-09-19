@@ -1,18 +1,25 @@
+
+
+.confidentiality-r {
+  font-family: 'Noto Sans', sans-serif;
+  color: orange;
+}
+
 .admin{
   text-decoration: none;
   color: inherit;
-}
-more_patient{
-  display: none;
+  
 }
 
 header{
   color: green;
+  font-family: 'Reenie Beanie'; 
 
 }
 
+ 
 body{
- font-family: 'Courier New', Courier, monospace;
-
-
-}
+  font-family:  'Baloo Bhaina 2';
+ 
+ }
+ 

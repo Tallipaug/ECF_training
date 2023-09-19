@@ -1,0 +1,114 @@
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Reenie+Beanie&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+  <title>Admin</title>
+</head>
+<body>
+
+  <div class="recipe">
+    <p>Les recettes</p>
+    <button>
+      ajouter une recette
+    </button>
+  </div>
+<div class="patients">
+  <p>mes patients</p>
+
+  <button id="more_patient">
+    ajouter un patient
+  </button>
+
+  <ul class="patient_li">
+    <li>
+      jean mi
+    </li>
+    <li>
+      Gerttrude
+    </li>
+    <li>
+      Albert
+    </li>
+    <li>
+      Maestro
+    </li>
+    <li>
+      Toufik
+    </li>
+    <li>
+      Giselle
+    </li>
+  </ul>
+</div>
+<div class="new_patient">
+  <form id="more_patiente" action="index.php" method="post" >
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" required><br>
+
+      <label for="prenom">Prénom :</label>
+      <input type="text" id="prenom" name="prenom" required><br>
+
+      <label for="adresse">Adresse :</label>
+      <textarea id="adresse" name="adresse" rows="4" required></textarea><br>
+
+      <label for="telephone">Téléphone :</label>
+      <input type="tel" id="telephone" name="telephone" required><br>
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="date_naissance">Date de Naissance :</label>
+      <input type="date" id="date_naissance" name="date_naissance" required><br>
+
+      <label for="weight">Poids :</label>
+      <input type="weight" id="weight" name="weight" required><br>
+
+      <label for="tall">Taille :</label>
+      <input type="tall" id="tall" name="tall" required><br>
+
+      <label for="imc">IMC:</label>
+      <input type="imc" id="imc" name="imc" required><br>
+
+      <label for="allergy">Allergie :</label>
+      <input type="allergy" id="allergy" name="allergy" required><br>
+      
+
+      <label for="diet">Régime :</label>
+      <select id="diet" name="diet" required>
+          <option value="diet1">Régime 1</option>
+          <option value="diet2">Régime 2</option>
+          <option value="diet3">Régime 3</option>
+      </select><br>
+
+      <label for="genre">Genre :</label>
+      <select id="genre" name="genre" required>
+          <option value="homme">Homme</option>
+          <option value="femme">Femme</option>
+          <option value="autre">Autre</option>
+      </select><br>
+
+      <input type="submit" value="Soumettre">
+  </form>
+</div>
+  
+</body>
+
+
+<footer>
+
+</footer>
+
+
+
+</html>
