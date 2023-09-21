@@ -1,25 +1,55 @@
-
-
-.confidentiality-r {
-  font-family: 'Noto Sans', sans-serif;
-  color: orange;
-}
-
 .admin{
   text-decoration: none;
   color: inherit;
   
 }
 
-header{
-  color: green;
+html{
+  text-align: center;
+ 
+}
+
+h1{ 
   font-family: 'Reenie Beanie'; 
+  background-color: #609A7D;
+  font-size: auto;
+  border: 1px #609A7D;
+  padding: 10px;
+}
+
+body {
+  font-size: auto;
+  font-family:  'Baloo Bhaina 2';
+  background-color: #DC9A7D;
+}
+
+article{
+  background-color: #609A7D;
+ 
+}
+
+
+
+
+footer{
+  font-family: 'Noto Sans', sans-serif;
+  text-decoration: none;
 
 }
 
- 
-body{
-  font-family:  'Baloo Bhaina 2';
- 
- }
- 
+
+
+
+
+
+
+/* Polices
+TEXTES
+font-family: 'Noto Sans', sans-serif;
+
+Header
+font-family: 'Reenie Beanie'; 
+
+TITRES
+font-family:  'Baloo Bhaina 2';
+*/
